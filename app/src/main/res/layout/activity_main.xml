@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,10 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
-            android:hint="type email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/textPassword"
@@ -34,9 +37,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:hint="type password"
+            android:hint="@string/password"
             android:inputType="textPassword"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:autofillHints="" />
 
         <Button
             android:id="@+id/button"
@@ -44,9 +48,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:backgroundTint="#D3D0D0"
-            android:text="create account"
-            android:textColor="#0B0A0A"
+            android:backgroundTint="#17A2E8"
+            android:text="@string/create"
+            android:textColor="#FFFFFF"
             android:textSize="15sp" />
     </LinearLayout>
 
